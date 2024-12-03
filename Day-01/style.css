@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100vw;
+}
+.container {
+    width: 100%;
+}
+.nav-bar{
+    height: 80px;
+    background-color: white;
+    padding: 10px 30px;
+}
+.nav-bar img {
+    height: 100%;
+    float: left;
+}
+.nav-bar ul {
+    height: 100%;
+    float: right;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0px 20px;
+    transition: 0.2s;
+}
+.nav-bar ul li a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+
+.hero {
+    height: 500px;
+    width: 100%;
+    background: url('hero.png');
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero h1 {
+    font-size: 100px;
+    color: beige;
+}
+.cards{
+   
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.cards div {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 0px 20px;
+    background-color: white;
+    width: 25%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cards .col2 {
+    background-color: crimson;
+    color: white;
+}
+.cards div img{
+    height: 100px;
+    width:  100px;
+}
+.cards a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px 70px;
+    border-radius: 50px;
+}
